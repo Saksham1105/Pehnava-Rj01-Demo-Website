@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Bodoni Moda', 'Bodoni MT', Didot, Georgia, serif;
+    --font-sans: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-padding-top: 5rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: #F8F4EE;
+    color: #24201F;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-editorial {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom Pehnava Brand Palette utility styles */
+.bg-cream {
+  background-color: #F8F4EE;
+}
+
+.bg-sand {
+  background-color: #EDE3D6;
+}
+
+.bg-burgundy {
+  background-color: #641F2B;
+}
+
+.bg-pehnava-red {
+  background-color: #C92825;
+}
+
+.text-burgundy {
+  color: #641F2B;
+}
+
+.text-pehnava-red {
+  color: #C92825;
+}
+
+.text-charcoal {
+  color: #24201F;
+}
+
+.text-taupe {
+  color: #756B63;
+}
+
+.text-gold {
+  color: #B08A55;
+}
+
+.border-subtle {
+  border-color: #E2D7CA;
+}
+
+.border-sand {
+  border-color: #EDE3D6;
+}
+
+.border-burgundy {
+  border-color: #641F2B;
+}
+
