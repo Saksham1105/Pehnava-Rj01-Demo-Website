@@ -2,6 +2,12 @@
 
 A modern, responsive fashion e-commerce demo website created for **Pehnava**, a fashion store based in Ajmer, Rajasthan.
 
+## 👨‍💻 Made By
+
+**Saksham Raj Singh Chauhan**  
+Computer Science & Engineering — AI & ML  
+GitHub: [@Saksham1105](https://github.com/Saksham1105)
+
 The project focuses on a premium storefront experience, responsive design, product discovery, and a clean shopping interface suitable for presenting a real-world retail website concept to clients.
 
 ## Live Demo
